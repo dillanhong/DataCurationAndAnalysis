@@ -9,13 +9,42 @@ The API documentation for Beautiful Soup can be found at the following link: [Be
 **Data Licensing:**
 The data used in this project is sourced from Wikipedia, specifically from the page titled "Population growth." The license for this data is in accordance with Wikipedia's licensing terms, which typically fall under the Creative Commons Attribution-ShareAlike License (CC BY-SA). More details on Wikipedia's licensing can be found here: [Wikipedia Licensing](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
 
-**Attribute Data Types and Description**
-Column Name:    Type:    Description:     
-column_a        integer  column #  
-country_        string   country  
-territory  
-population_     integer  population in year 1967  
-in_1967  
+**Attribute Data Types and Description**  
+- **column_a**
+  - **Type:** Integer
+  - **Description:** An identifier or index for the column.
+
+- **country_territory**
+  - **Type:** String
+  - **Description:** The name of the country or territory associated with the data.
+
+- **population_in_1967**
+  - **Type:** Integer
+  - **Description:** The population size for the year 1967.
+
+- **population_in_1990**
+  - **Type:** Integer
+  - **Description:** The population size for the year 1990.
+
+- **population_in_1994**
+  - **Type:** Integer
+  - **Description:** The population size for the year 1994.
+
+- **population_in_2002**
+  - **Type:** Integer
+  - **Description:** The population size for the year 2002.
+
+- **population_in_2008**
+  - **Type:** Integer
+  - **Description:** The population size for the year 2008.
+
+- **life_expectancy_in_years_2008**
+  - **Type:** Integer
+  - **Description:** The life expectancy in years for the year 2008.
+
+- **total_population_growth_from_1960s_to_2007_2011**
+  - **Type:** Integer
+  - **Description:** The total population growth over the period from the 1960s to 2007 or 2011, depending on the dataset. This likely represents the net change in population during this time frame.
 
 **Known and Potential Issues:**
 1. **Handling Commas, Symbols, etc.:** One known issue is that the dataset contains numeric values with commas and random symbols on the website, which can interfere with numerical analysis. This issue may require data preprocessing to remove commas before conducting quantitative analysis.
