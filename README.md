@@ -46,6 +46,16 @@ The data used in this project is sourced from Wikipedia, specifically from the p
   - **Type:** Integer
   - **Description:** The total population growth over the period from the 1960s to 2007 or 2011, depending on the dataset. This likely represents the net change in population during this time frame.
 
+**Analysis:**
+- The count of data points is the same for both years, indicating consistent data availability.
+- The mean population significantly increased from 1967 to 2008, suggesting overall population growth in these regions.
+- While the mean increased, the wide standard deviations indicate that there is still substantial variation in population sizes.
+- The minimum populations increased slightly, indicating that even the smallest populations grew over time.
+- The median population increased significantly, confirming that the majority of regions experienced population growth.
+- The maximum population in 2008 is substantially larger, signifying that some regions saw substantial population expansion.
+
+In summary, these statistics suggest that, on average, the regions in this dataset experienced population growth from 1967 to 2008, with some regions experiencing more significant growth than others. The wide standard deviations indicate that while there is a general trend of growth, there are still regions with diverse population dynamics.
+
 **Known and Potential Issues:**
 1. **Handling Commas, Symbols, etc.:** One known issue is that the dataset contains numeric values with commas and random symbols on the website, which can interfere with numerical analysis. This issue may require data preprocessing to remove commas before conducting quantitative analysis.
 
